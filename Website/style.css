@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 500px;
+}
+
+#welcome {
+    background: linear-gradient(#0859C6 0%, #0C71E0 20%, #10A5F5 45%, #00DBFF 70%, #00FFFF 100%);
+    text-align: center;
+    height: 400px;
+    padding: 250px;
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-family: sans-serif;
+    border-width: thin;
+    border-color: indigo;
+}
+
+#description {
+    text-align: center;
+    background-color: #10A5F5;
+    height: 500px;
+    padding: 200px;
+    font-size: 50px;
+    font-family: cursive
+}
+
+p {
+    font-size: 32px;
+    font-family: fantasy;
+    border-width: thin;
+    border-color: indigo;
+}
+
+.menu {
+    font-family: 'Itim', cursive;
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: brown;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+}
+
+.links:hover {
+    background-color: cadetblue;
+}
